@@ -1,0 +1,49 @@
+/*arrumando login e senha do lado da imagem*/
+main{
+    position: sticky;
+    z-index: 1;
+    padding-top: 10%;
+
+    .login{
+        input{
+            width: 60%;    
+        }
+    }
+}
+
+/*centralizando ADM e login e senha no meio*/
+div,h1{
+    text-align: center;
+}
+
+/* colocando negrito no login e senha*/
+p{
+    font-weight: bold;
+}
+
+/* colocando imagem do lado direito do codigo*/
+img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+/*colocando a imagem de fundo*/
+#imagem-de-fundo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("imagem/cadeado4.png");
+    opacity: 0.04;
+    position: absolute;
+    top: 0;
+}
+
+/*colocando cor no botão entrar*/
+button{
+    background-color: rgb(33, 33, 36);
+    color: aliceblue;
+}
+
+
