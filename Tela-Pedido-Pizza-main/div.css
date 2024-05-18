@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    
+}
+.pedido-container {
+    align-items: center;
+}
+.pedido {
+    width: 3em;
+    margin: 0 5em; 
+}
