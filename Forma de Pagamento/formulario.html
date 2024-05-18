@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Pagamento</title>
+</head>
+<body>
+    <h2>Escolha sua Forma de Pagamento</h2>
+    <form action="/processar_pagamento">
+        <label for="forma_pagamento">Formas de Pagamentos:</label>
+        <select id="forma_pagamento" name="forma_pagamento" required>
+            <option value="">Selecione uma opção</option>
+            <option value="cartao_credito">Cartão de Crédito</option>
+            <option value="cartao_debito">Cartão de debito</option>
+            <option value="dinheiro">Dinheiro</option>
+            <option value="pix">PIX</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Pagar">
+    </form>
+</body>
+</html>
